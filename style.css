@@ -11,10 +11,6 @@ h1 {
     color: orange;
 }
 
-section {
-    display: flex;
-    margin-bottom: 150px;
-}
 
 p {
     font-weight: normal;
@@ -50,4 +46,9 @@ p {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.flexible-container {
+    display: flex;
+    padding-bottom: 80px;
 }
