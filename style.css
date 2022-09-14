@@ -52,3 +52,33 @@ p {
     display: flex;
     padding-bottom: 80px;
 }
+
+.experience-item {
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    border-left: 6px solid;
+}
+
+.experience-aria {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#web-developer-experience {
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#baby-developer {
+    border-image: linear-gradient(orange, blue);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
